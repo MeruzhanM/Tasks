@@ -148,7 +148,6 @@ mySome(function(word, index, array) {
 }, words);
 
 
-//////////////// FILTER IMPLEMENTATION /////////////////////
 
 
 
