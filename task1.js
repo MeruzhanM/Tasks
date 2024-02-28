@@ -149,5 +149,23 @@ mySome(function(word, index, array) {
 
 
 
+//////////////// EVERY IMPLEMENTATION /////////////////////
+
+
+
+const words2 = ["dog", "wolf", "by", "family", "eaten"];
+function myEvery(callback, arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if(!callback(arr[i])) {
+      return false
+    }
+  } 
+  return true;
+}
+myEvery(function(word, index, array) {
+  return word.length > 1
+}, words2);
+
+
 
 
