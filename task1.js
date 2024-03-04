@@ -47,7 +47,7 @@ const persons = [
 function myFind(callback, arr) {
   for (let i = 0; i < arr.length; i++) {
     if(callback(arr[i])) {
-      return i
+      return arr[i]
     }
   } 
   
@@ -85,7 +85,7 @@ const persons1 = [
 function myFindIndex(callback, arr) {
   for (let i = 0; i < arr.length; i++) {
     if(callback(arr[i])) {
-      return arr[i]
+      return i
     }
   } 
   
